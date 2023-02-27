@@ -26,14 +26,5 @@
     <ClInclude Include="include\edgetpu_c.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="include\c_api.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="include\c_api_experimental.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="include\common.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
