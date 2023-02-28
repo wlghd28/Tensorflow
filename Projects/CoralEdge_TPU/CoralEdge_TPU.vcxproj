@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\model.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\edgetpu.h" />
     <ClInclude Include="include\edgetpu_c.h" />
+    <ClInclude Include="src\model.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -127,6 +129,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>.\;.\src;.\include;..\tensorflow_src;C:\opencv\build\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
